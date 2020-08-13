@@ -12,9 +12,9 @@ public class SimulationPaymentPage extends TestBase {
         PageFactory.initElements(driver, this);
     }
 
-    /**********************************************************
-     * Defining Page Factory : Object Repository of Login Page
-     **********************************************************/
+    /********************************************************************************
+     * Defining Page Factory : Object Repository of Simulation Payment Page
+     ********************************************************************************/
 
     @FindBy(id = "amount")
     private WebElement amountTextBox;
@@ -31,9 +31,9 @@ public class SimulationPaymentPage extends TestBase {
     @FindBy(xpath = "//p[@id='pay']")
     private WebElement transactionResultMessage;
 
-    /***********************************
-     * Methods : Actions of Login Page
-     ***********************************/
+    /*************************************************
+     * Methods : Actions of Simulation Payment Page
+     *************************************************/
 
     public String getPageTitle() {
         TestUtil.waitForVisibilityOfElement(driver, amountTextBox);
