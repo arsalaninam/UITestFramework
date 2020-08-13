@@ -1,6 +1,6 @@
 # UI Test Framework
 
-This Framework is designed for UI Testing of Web Applications using Java with Selenium WebDriver and TestNG utilizing Maven as dependency management tool.
+This Framework is designed for UI Testing of Web Applications using Java with Selenium WebDriver and TestNG utilizing Maven as dependency management tool utilizing TestNG Data Providers for Test inputs.
 ## Technology Stack
 
 - Java
