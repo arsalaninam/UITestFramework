@@ -35,7 +35,7 @@ public class TestUtil {
     }
 
     /************************************************************************************************
-     * Explicit Wait for visibility of an element and enters text to the text box
+     * Explicit Wait for visibility of an element and enters text into the text box
      *
      * @param driver - WebDriver instance
      * @param element - Element to be Displayed
@@ -48,6 +48,7 @@ public class TestUtil {
     }
 
     /************************************************************************************************
+     * Select a value from dropdown list
      *
      * @param driver - WebDriver instance
      * @param element - Dropdown WebElement
