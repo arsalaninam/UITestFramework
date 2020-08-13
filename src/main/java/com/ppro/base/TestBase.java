@@ -23,7 +23,7 @@ public class TestBase extends PropertyReader {
     //WebDriver instance
     protected static WebDriver driver;
 
-    //HomePage instance
+    //SimulationPage instance
     protected SimulationPaymentPage simulationPaymentPage;
 
     /******************************************************************************************
